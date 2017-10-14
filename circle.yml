@@ -8,10 +8,10 @@ dependencies:
   pre:
     - sudo pip install docker-compose
 
-test:
-  override:
-    - docker-compose up -d
-    - docker-compose run dockerapp python test.py
+#test:
+#  override:
+#    - docker-compose up -d
+#    - docker-compose run dockerapp python test.py
 
 deployment:
   hub:
